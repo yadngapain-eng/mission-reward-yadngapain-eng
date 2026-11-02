@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>🎁 Mission Reward — yadngapain-eng</title>
+<link rel="stylesheet" href="style.css"/>
+<link rel="icon" href="https://avatars.githubusercontent.com/u/333168412?v=4"/>
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <header class="navbar">
+    <div class="brand">
+      <img src="https://avatars.githubusercontent.com/u/333168412?v=4" alt="avatar" class="avatar"/>
+      <span>@yadngapain-eng</span>
+    </div>
+    <a href="https://github.com/yadngapain-eng/mission-reward-yadngapain-eng" target="_blank" class="btn-ghost">⭐ GitHub Repo</a>
+  </header>
+
+  <main class="hero">
+    <h1>🎁 Selesaikan Misi, <span class="gradient">Dapat Reward!</span></h1>
+    <p class="subtitle">Kerjakan misi di bawah ini dan klaim hadiahmu secara otomatis.</p>
+
+    <div class="stats">
+      <div class="stat-card"><div class="stat-value" id="totalMissions">0</div><div class="stat-label">Total Misi</div></div>
+      <div class="stat-card"><div class="stat-value" id="doneMissions">0</div><div class="stat-label">Selesai</div></div>
+      <div class="stat-card"><div class="stat-value" id="totalReward">0</div><div class="stat-label">Reward Poin</div></div>
+    </div>
+
+    <section class="missions" id="missionList"></section>
+    <button class="btn-claim" id="claimBtn" disabled>💰 Klaim Reward</button>
+    <p class="footer">© 2025 @yadngapain-eng · Auto-generated with ❤️</p>
+  </main>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
